@@ -1,0 +1,6 @@
+gmail:
+  token_file: "token.json"
+  credentials_file: "credentials.json"
+  scopes:
+    - "https://www.googleapis.com/auth/gmail.readonly"
+    - "https://www.googleapis.com/auth/gmail.send"
