@@ -55,3 +55,16 @@ class GmailClient:
         llm = ChatOpenAI(temperature=0)
         response = llm.predict(prompt)
         return response
+
+
+    def search_emails(self, keywords: list):
+        pass
+
+    #We can map out emails from different sources on a common template to manage them and any attachments they contain
+class SingleEmail():
+    def __init__(self, email):
+        self.email = email #gmail, yahoo, etc.
+        self.recipient = "User"
+        self.sender = None #can contain Contact() object or email
+        self.ccd = None # who was cc'd on the email
+        self.attachments = None #Provide a secure manner in which attachments are reviewed/manipulated
