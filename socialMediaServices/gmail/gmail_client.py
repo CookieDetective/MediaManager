@@ -52,7 +52,7 @@ class GmailClient:
         return emails
 
     def respond_to_email(self, prompt: str):
-        llm = ChatOpenAI(temperature=0)
+        llm = ChatOpenAI()
         response = llm.predict(prompt)
         return response
 

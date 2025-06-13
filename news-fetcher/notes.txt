@@ -1,0 +1,3 @@
+https://pypi.org/project/news-fetch/
+
+This folder will need to be capable of retrieving news from multiple outlets (list ones that don't require subscriptions)

@@ -1,0 +1,15 @@
+https://pypi.org/project/WMI/
+https://github.com/amidaware/tacticalrmm
+
+
+This may take some research but this should be able to interact with our windows systems to perform different tasks
+Some of these tasks will be provided by dependencies and others we will need to implement ourselves
+
+Review tacticalrmm for things such as
+-remote shells
+-remote file browser
+-remote command and script execution (Powershell focus)
+
+
+Examples of our own implementation may be:
+-Scanning files in folders to find specific text
